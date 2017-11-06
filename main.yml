@@ -5,7 +5,7 @@
     max_clients: 200
   tasks:
   - name: ensure apache is at the latest version
-    yum: 
+    apt: 
       name: httpd 
       state: latest
   # - name: write the apache config file
