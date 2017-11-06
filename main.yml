@@ -7,7 +7,7 @@
   tasks:
   - name: ensure apache is at the latest version
     apt:
-      name: apache2 
+      name: apache2
       state: latest
   # - name: write the apache config file
   #   template:
