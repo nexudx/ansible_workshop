@@ -17,7 +17,7 @@
   #   - restart apache
   - name: ensure apache is running (and enable it at boot)
     service:
-      name: httpd
+      name: apache2
       state: started
       enabled: yes
   # handlers:
