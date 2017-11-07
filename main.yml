@@ -27,12 +27,14 @@
       dest: /tmp/index.html
       checksum: md5:e2620d4a5a0f8d80dd4b16de59af981f
     register: blubb
+    changed_when: false
   - debug:
       var: blubb
   - name: remove tmp
     file:
       path: /tmp/index.html
       state: absent
+    changed_when: false
   # handlers:
   #   - name: restart apache
   #     service:
