@@ -28,7 +28,7 @@
       checksum: md5:e2620d4a5a0f8d80dd4b16de59af981f
     register: output
   - debug:
-      var: output.failed
+      var: output
   # handlers:
   #   - name: restart apache
   #     service:
