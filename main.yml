@@ -26,9 +26,9 @@
       url: http://10.2.78.104/index.html
       dest: /tmp/index.html
       checksum: md5:e2620d4a5a0f8d80dd4b16de59af981f
-    register: output
+    register: blubb
   - debug:
-      var: output
+      var: blubb
   # handlers:
   #   - name: restart apache
   #     service:
